@@ -1,0 +1,63 @@
+#instalando Github
+sudo apt-get update
+sudo apt-get install git-all
+git version
+
+#vincular llave ssh
+ssh-keygen -t ed25519 -C "correo@electronico.com"
+#ingresar passphrase o contrasenia
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+#ingresar passphrase
+cat ~/.ssh/id_ed25519.pub
+#copiar la llave
+
+#agregar llave en la cuenta de github
+1. abrir github
+2. settings
+3. ssh and gpg keys
+4. ney ssh key
+5. Ingresar titulo (nombre de la pc)
+6. pegar la llave en key
+7. add ssh key
+
+#subir repositorio en github
+1. ir al directorio del proyecto
+2. git init
+3. git status
+4. git add .
+5. git status (not commit yet)
+
+#crear un commit
+1. git commit -m "mi primer commit"
+#git config
+git config --global user,name "FLAVMENDEZ"
+git config --global user.email "correo@e.com"
+
+git commit -m "mi primer commit"
+
+# Agregar un nuevo repositorio en github
+1. your repositories
+2. new
+3. poner el nombre del repositorio
+4. descripcion breve,
+5. publico o privado
+6. create repository
+7. quick setup https cambiar a  ssh, y copiar el link
+
+#en la terminal
+git remote add origin (url copiado)
+git remote -v
+(fetch) & (push)
+git push origin master
+
+#en git
+refrescar la pagina y verificar el repositorio
+
+#actualizacion
+git status 
+git add .
+git status
+git commit -m "Mi segundo commit"
+git push origin master
+y actualizar github repositories.

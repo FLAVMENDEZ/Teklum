@@ -1,0 +1,27 @@
+#Actualizacion automatica en el navegaador
+live server
+
+#Resalta las etiquetas pares
+Highlight Machine Tag
+
+#Revisa el codigo estaticamente en busca de errores
+ESlint
+
+#mira rapidamente los estilos que tenemos desde las etiquetas
+CSS peek
+
+#Corrector de ortografia de ingles
+Code spell Checker
+
+#terminal linux
+WSL
+
+#Muestra automaticamente que modulos de node.js nos hace falta
+Node require
+
+#Agrega iconos para cada uno de los diferentes archivos (cuestion de estetica)
+Material Icon Theme
+
+#Otras Recomendadas
+Color higlight
+Auto Rename Tag
